@@ -5,38 +5,57 @@
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.addForm {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.userInput {
+  display: flex;
+  justify-content: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.nameInput {
+  width: 180px;
+  height: 30px;
+  margin-right: 10px;
 }
 
-.card {
-  padding: 2em;
+.ageInput {
+  width: 180px;
+  height: 30px;
+  margin-left: 10px;
 }
 
-.read-the-docs {
-  color: #888;
+.addBtn {
+  width: 400px;
+  margin-top: 20px;
+  background-color: #b1dfff;
+}
+
+.userCard {
+  padding: 0;
+  margin-top: 40px;
+}
+
+.userMap {
+  width: 400px;
+  height: 60px;
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+  border-radius: 5px;
+  border: 1px solid gray;
+  justify-content: space-between;
+}
+
+.userData {
+  list-style: none;
+  margin-left: 20px;
+}
+
+.removeBtn {
+  margin-left: 20px;
+  margin-right: 20px;
 }
